@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  	<meta charset="utf-8"/>
+  	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  	<title>List To Do</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Syne+Mono&display=swap" rel="stylesheet">
+  	<link href="style.css" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <h2>My To Do List</h2>
+      <div class="minha_div">
+        <input type="text" id="meu_input" placeholder="Coisas para fazer...">
+
+        <button onclick="addItem()" class="addItem">Adicionar Item</button>
+
+        <button onclick="deleteDone()" class="delete_done">Apagar Finalizados</button>
+        <button onclick="deleteAll()"  class="delete-all">Apagar Todos</button>
+
+      </div>
+
+        <div class="list">
+          <ul id="minha_lista"></ul>
+        </div>
+
+  	<script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

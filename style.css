@@ -1,0 +1,94 @@
+* {
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+
+	margin-bottom: 10px;
+
+	font-family: 'Syne Mono', monospace;
+	background-image: url("./icons/wallpaper.jpg");
+	background-position: center;
+	text-align: center;
+	font-size: 50px;
+	padding: 15px;
+}
+
+.list {
+
+	display: flex;
+	justify-content: center;
+}
+
+#minha_lista {
+
+	margin-left: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	margin: 20px;
+
+	padding: 0 ;
+}
+
+button {
+	width:200px;
+	margin-left: 20px;
+}
+
+
+.minha_div {
+
+	display: flex;
+	justify-content: center;
+	margin: 15px
+	width: 800px;
+
+}
+
+li {
+
+	list-style: none;
+	width: 800px;
+	background-color: #ccc;
+
+	display: flex;
+	align-items: center;
+}
+
+.checked {
+	
+	text-decoration: line-through;
+	background-color: #09c7ad;
+
+}
+
+
+
+.close {
+
+	margin-left: auto;
+
+	padding: 20px;
+
+	border-style: none;
+	background-image: url(./icons/lixeira.png);
+	background-color: red;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+button:hover {
+	background-color: #09c7ad;
+}
+
+li:hover {
+	background-color: #09c7ad;
+}
